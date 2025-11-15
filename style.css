@@ -151,3 +151,46 @@ section {
         display: flex;
     }
 }
+
+/* RESUME SECTION */
+#resume {
+    background-color: #f4f4f9; /* light background */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+#resume h2 {
+    color: #0077cc;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#resume p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Resume Button */
+#resume .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#resume .btn:hover {
+    background: #ff9900;
+    color: white;
+}
+
+#resume .btn i {
+    margin-right: 8px;
+}
+
